@@ -1,0 +1,67 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color: #000;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.fish {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid blue;
+
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: auto;
+    right: auto;
+
+
+}
+
+.center {
+    width: 70%;
+    border: red solid 1px;
+    padding: 10px;
+}
+
+.fish p {
+    font-size: 1.2em;
+
+}
+
+.fish img {
+    width: 30%;
+}
+
+.text {
+    /* display: flex; */
+}
+
+.footer {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer img {
+    width: 32px;
+    height: 32px;
+    margin-top: 10px;
+}
