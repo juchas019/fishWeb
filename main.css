@@ -28,20 +28,21 @@ h2 {
     /* margin-block-start:0px; */
     /* margin: 7px; */
     list-style: none;
-           
+
 }
 
 .navigation ul li a {
     list-style: none;
-       text-decoration: none;
-       color: black;
-    
+    text-decoration: none;
+    color: black;
+
 }
 
 .navigation img {
     width: 34px;
     height: 34px;
 }
+
 .image-float {
     float: left;
 }
@@ -62,8 +63,8 @@ h2 {
     flex-wrap: wrap;
     align-items: center; */
     /* border: 1px solid red; */
-    margin:10px;
-    /* overflow: hidden; */
+    margin: 10px;
+    margin-bottom: 15px;
 }
 
 .fish h3 {
@@ -76,28 +77,29 @@ h2 {
 }
 
 .fish img {
-    width: 97%;
+    width: 95%;
     flex-basis: 38%;
     transition: ease-in-out 0.3s;
-    padding: 3px;
-    }
+    padding: 5px;
+}
 
 .fish a {
     width: 38%;
     flex-basis: 38%;
-    
+
 }
 
 .fish p {
     display: block;
     font-size: 100%;
     flex-basis: 55%;
-    padding: 10px;
+    padding: 8px;
+    margin: 5px;
     /* border: 1px solid blue; */
 }
 
 .fish img:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
     overflow: hidden;
     cursor: pointer;
 
@@ -161,13 +163,14 @@ h2 {
     z-index: 5;
 }
 
-@media (max-width: 640px){
- 
+@media (max-width: 640px) {
+
     .fish {
         width: 90%;
     }
+
     /* .fish p {
         font-size: 100%;
     } */
-     
-    }
+
+}
