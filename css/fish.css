@@ -10,7 +10,7 @@ h2 {
 }
 
 
-.navigation {
+/* .navigation {
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
@@ -18,21 +18,18 @@ h2 {
     color: white;
     font-size: 1.2rem;
 
-}
+} */
 
 .fish {
     display: flex;
     justify-content: center;
     width: 100%;
     border: 1px solid blue;
-
     flex-direction: row;
     align-items: center;
     position: relative;
     left: auto;
     right: auto;
-
-
 }
 
 .center {
