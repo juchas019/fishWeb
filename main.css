@@ -5,7 +5,6 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-
     display: flex;
     flex-direction: column;
 }
@@ -15,11 +14,15 @@ h2 {
     text-align: center;
 }
 
-.navigation {
+.headerFish h1 {
+    padding: 30px;
+
+}
+
+/* .navigation {
     background-color: #bbb;
     background-image: url(image/nav.jpg);
     background-position: top;
-    /* padding: 3px; */
     width: 100%;
     position: sticky;
     top: 0;
@@ -31,7 +34,6 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* margin-block-start:0px; */
     margin: 7px;
     list-style: none;
 
@@ -45,7 +47,7 @@ h2 {
 .navigation img {
     width: 34px;
     height: 34px;
-}
+} */
 
 .image-float {
     float: left;
@@ -109,7 +111,7 @@ h2 {
 
 }
 
-.footer {
+/* .footer {
     background-color: #555;
     display: flex;
     justify-content: space-evenly;
@@ -126,7 +128,7 @@ h2 {
 .footer img {
     width: 32px;
     height: 32px;
-}
+} */
 
 /* Scroll UP */
 #button {

@@ -1,30 +1,11 @@
-body {
-    padding: 0px;
-    margin: 0px;
-    font-size: 16px;
+h1 {
+    padding: 25px;
 }
 
-h1,
-h2 {
-    text-align: center;
-}
-
-
-/* .navigation {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 5px;
-    background-color: #000;
-    color: white;
-    font-size: 1.2rem;
-
-} */
-
-.fish {
+.fishContener {
     display: flex;
     justify-content: center;
     width: 100%;
-    border: 1px solid blue;
     flex-direction: row;
     align-items: center;
     position: relative;
@@ -34,24 +15,33 @@ h2 {
 
 .center {
     width: 70%;
-    border: red solid 1px;
     padding: 10px;
 }
 
-.fish p {
-    font-size: 1.2em;
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+
+.text p {
+    font-size: 1.1em;
 
 }
 
-.fish img {
+.text img {
     width: 30%;
+    margin: 8px;
 }
 
-.text {
-    /* display: flex; */
-}
+/* .text {
+    display: flex;
+} */
 
-.footer {
+/* .footer {
     background-color: grey;
     display: flex;
     justify-content: space-evenly;
@@ -61,4 +51,4 @@ h2 {
     width: 32px;
     height: 32px;
     margin-top: 10px;
-}
+} */

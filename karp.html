@@ -5,35 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karp</title>
-    <!-- <link href="css/fish.css" rel="stylesheet" type="text/css" /> -->
-    <link href="css/navigationFooter.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/fish.css" type="text/css" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="stylesheet" href="css/navigationFooter.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
     <nav class="navigation">
-        <a href="ryby.html">Ryby</a>
-        <a>Sprzęt</a>
-        <a>Łowiska</a>
-        <a>Metody</a>
-        <a>Filmy</a>
+        <ul>
+            <li><a href="index.html"><img src="image/fishing.png" alt="logo-fish"></a></li>
+            <li><a href="ryby.html">Ryby</a></li>
+            <li><a>Sprzęt</a></li>
+            <li><a>Łowiska</a></li>
+            <li><a>Metody</a></li>
+            <li><a>Filmy</a></li>
+        </ul>
     </nav>
     <header>
-        <img src="image/fishing.png" alt="logo-fish">
-        <h1>Wędkarstwo</h1>
+        <h1>Karp</h1>
     </header>
-    <section class="fish">
+    <section class="fishContener">
         <div class="center">
-            <h2>Karp</h2>
             <div class="text">
                 <p><strong>Karp
-                    </strong> <em>(Cyprinus carpio)</em> to ryba słodkowodna z rodziny karpiowatych, pierwsza udomowiona
-                    i
-                    najważniejszy gatunek hodowlany w naszym kraju. Zęby gardłowe występują w trzech szeregach.
+                    </strong> <em>(Cyprinus carpio)</em> to ryba słodkowodna z rodziny karpiowatych,
+                    <img src="image/karp/karp 2.jpg" alt="karp" class="floatRight">
+                    pierwsza udomowiona i najważniejszy gatunek hodowlany w naszym kraju. Zęby gardłowe występują w
+                    trzech szeregach.
                     Występują dwie odmiany karpia. Pierwsza to dziki karp - sazan, a druga to karp udomowiony. Obie
                     odmiany mają dwa dłuższe i dwa krótsze wąsiki w okolicy kącików wargi górnej, długą, nieco
                     zaokrągloną płetwę grzbietową, słabo wciętą płetwę ogonową, krótką płetwę odbytową. Ciało jest
                     bocznie spłaszczone.</p>
-                <img src="image/karp/karp.jpg">
                 <p>Kształt ciała sazana jest nieco wydłużony, walcowaty, niezbyt wygrzbiecony, z mniejszą głową, małym
                     otworem gębowym. Pokryty jest jednolicie grubą łuską. Ma jaśniejsze, złotawe boki i ciemny grzbiet.
                 </p>
@@ -50,10 +55,15 @@
                 <p>Ponadto w Polsce mamy pięć odmian barwnych: złotą, szarą, żółto-białą, brązową i niebieską.</p>
                 <h3>Karp koi</h3>
                 <p>Karp koi jest hodowlaną, ozdobną i udomowioną odmianą karpia. Jego hodowlę rozpoczęto w XIX wieku w
-                    Japonii. Dziś znamy wiele odmian barwnych (ponad 100). Ubarwienie zwykle pomarańczowe, białe,
-                    czarne, w plamy. Kilka zdjęć znajduje się w naszej galerii.</p>
+                    Japonii.
+                    Dziś znamy wiele odmian barwnych (ponad 100).
+
+                    Ubarwienie zwykle pomarańczowe, białe,czarne, w plamy. Kilka zdjęć znajduje się w naszej galerii.
+                </p>
                 <h3>Występowanie i środowisko</h3>
-                <p>Karp jest u nas obcym gatunkiem, który nie może się u nas rozmnażać. W naturze występuje w
+
+                <p><img src="image/karp/karp4.jpg" alt="karp" class="floatLeft">
+                    Karp jest u nas obcym gatunkiem, który nie może się u nas rozmnażać. W naturze występuje w
                     południowej i południowo-wschodniej części Europy oraz we wschodniej części Azji. Zamieszkuje wolno
                     płynące rzeki o mulistym dnie i bogatej roślinności wodnej oraz zbiorniki wody stojącej. Zamieszkuje
                     też laguny przymorskie. Znosi zasolenie wody do 2%.</p>
@@ -66,7 +76,8 @@
                     Ponieważ muł opada wolniej, ryba wybiera właściwy pokarm. W hodowli może być karmiony paszami i
                     nasionami roślin strączkowych.</p>
                 <h3>Rozmnażanie</h3>
-                <p>W Polsce karp w naturze nie jest zdolny do rozrodu! Tarło odbywa się wyłącznie w specjalnych stawach
+                <p>W Polsce karp w naturze nie jest zdolny do rozrodu! Tarło odbywa się wyłącznie
+                    <img src="image/karp/karp.jpg" alt="karp" class="floatRight"> w specjalnych stawach
                     tarliskowych lub w wylęgarniach. W normalnych warunkach karp potrzebuje do rozrodu wody o
                     temperaturze 18-20 °C. Tarło odbywa się od maja do czerwca na zalanych łąkach nad rzekami. Ikra
                     przyczepia sie do traw. Z jaj małe larwy wykluwają się już po 3-5 dniach, po miesiącu stają się
@@ -91,6 +102,19 @@
         <p>Łukasz Juchniewicz</p>
         <p>Wędkarstwo moje hobby</p>
     </footer>
+    <a id="button"></a>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scrolUp.js"></script>
 </body>
 
 </html>
