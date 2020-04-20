@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlularz</title>
+    <link rel="stylesheet" href="css/fish.css" type="text/css" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="stylesheet" href="css/navigationFooter.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html"><img src="image/fishing.png" alt="logo-fish"></a></li>
+            <li><a href="ryby.html">Ryby</a></li>
+            <li><a>Sprzęt</a></li>
+            <li><a>Łowiska</a></li>
+            <li><a>Metody</a></li>
+            <li><a>Filmy</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Formularz testowy</h1>
+    </header>
+    <section class="form-section">
+        <div class="text-contact">
+            <p>
+                Skontaktuj się ze mną. Napisz krótką wiadomość.
+            </p>
+        </div>
+        <form class="form" id="formTest1" method="post">
+            <div class="form-rows">
+                <label for="name">Imię</label>
+                <input type="text" name="name" id="name" pattern=".{3,}" required placeholder="Imię">
+            </div>
+            <div class="form-rows">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="Email">
+            </div>
+            <div class="form-rows">
+                <label for="message">Wiadomość</label>
+                <textarea name="message" id="message" required></textarea>
+            </div>
+            <div class="form-row">
+                <button type="submit" class="submit-btn">
+                    Wyślij
+                </button>
+            </div>
+        </form>
+
+    </section>
+    <footer class="footer">
+        <img src="image/fisher.png" alt="logo">
+        <p>Łukasz Juchniewicz</p>
+        <p>Wędkarstwo moje hobby</p>
+    </footer>
+
+
+    <a id="button"></a>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scrolUp.js"></script>
+</body>
+
+</html>
