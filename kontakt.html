@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlularz</title>
+    <!-- <link rel="stylesheet" href="css/fish.css" type="text/css" /> -->
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="stylesheet" href="css/navigationFooter.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navigation">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu">
+            <a href="index.html"><img src="image/fishing.png" alt="logo-fish"></a>
+            <a href="ryby.html">Ryby</a></li>
+            <a href="">Sprzęt</a>
+            <a href="">Łowiska</a>
+            <a href="">Metody</a>
+            <a href="">Filmy</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+    </nav>
+    <header class="header-h1">
+        <h1>Formularz kontaktowy</h1>
+    </header>
+    <div class="text-thanks">
+        <p>Dziękuję bardzo za odwiedzenie mojej strony.
+            Witryna ta powstała aby połączyć moje hobby jakim jest wędkarstwo, z moją nową pasją czyli tworzeniem stron
+            internetowych.
+            Chciałbym zaznaczyć, że część tekstów i zdjęć, które umieściłem na tej witrynie, zostały powielone z innych
+            stron o podobnej tematyce. Dziękuję twórcom za wiedzę i poświęcony czas, polecam wszystkim użytkownikom
+            odiedzenie tych witryn. Na samym dole znajduje się lista stron,
+            z których zasobów skorzystałem.
+        </p>
+    </div>
+    <section class="form-section">
+        </div>
+        <form class="form" id="formTest1" method="post">
+            <div class="text-contact">
+                <p>
+                    Skontaktuj się ze mną. Napisz krótką wiadomość.
+                </p>
+            </div>
+            <div class="form-rows">
+                <label for="name">Imię</label>
+                <input type="text" name="name" id="name" pattern=".{3,}" required placeholder="Imię">
+            </div>
+            <div class="form-rows">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="Email">
+            </div>
+            <div class="form-rows">
+                <label for="message">Wiadomość</label>
+                <textarea name="message" id="message" required></textarea>
+            </div>
+            <div class="form-row">
+                <button type="submit" class="submit-button">
+                    Wyślij
+                </button>
+            </div>
+        </form>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5656.009137766915!2d18.402442030419497!3d54.42734311516169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd9fa9f5ce91d7%3A0xf34346bb048c3feb!2sJezioro%20Borowiec%20Du%C5%BCy%20(Zbiornik%20Borowiec%20I)!5e1!3m2!1spl!2spl!4v1587395749599!5m2!1spl!2spl"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </section>
+    <article class="list-web-article">
+        <div class="web-list">
+            <a href="https://wedkuje.pl/" target="blank"><img src="image/wedLogo.png" alt="logo wedkuje.pl"></a>
+        </div>
+        <div class="web-list">
+            <a href="https://www.medianauka.pl/ryby-polski" target="blank"><img src="image/logoMN.png" alt="logo medianauka.pl"></a>
+        </div>
+        <div class="web-list">
+            <a href="https://www.nurkomania.pl/ryby_polskich_jezior.htm" target="blank"><img src="image/logo_nurkomania.png" alt="logo nurkomania.pl"></a>
+        </div>
+    </article>
+    <footer class="footer">
+        <img src="image/fisher.png" alt="logo">
+        <p>Łukasz Juchniewicz</p>
+        <p>Wędkarstwo moje hobby</p>
+    </footer>
+
+
+    <a id="button"></a>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scrolUp.js"></script>
+</body>
+
+</html>
