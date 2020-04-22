@@ -20,36 +20,6 @@ h2 {
 
 }
 
-/* .navigation {
-    background-color: #bbb;
-    background-image: url(image/nav.jpg);
-    background-position: top;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    color: black;
-}
-
-.navigation ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 7px;
-    list-style: none;
-
-}
-
-.navigation ul li a {
-    color: black;
-
-}
-
-.navigation img {
-    width: 34px;
-    height: 34px;
-} */
-
 .image-float {
     float: left;
 }
@@ -65,11 +35,6 @@ h2 {
 
 .fish {
     width: 40%;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center; */
-    /* border: 1px solid red; */
     margin: 10px;
     margin-bottom: 15px;
 }
@@ -80,7 +45,6 @@ h2 {
     margin-block-start: 5px;
     margin-block-end: 0px;
     height: 10%;
-
 }
 
 .fish img {
@@ -93,7 +57,6 @@ h2 {
 .fish a {
     width: 38%;
     flex-basis: 38%;
-
 }
 
 .fish p {
@@ -102,7 +65,6 @@ h2 {
     flex-basis: 55%;
     padding: 8px;
     margin: 5px;
-    /* border: 1px solid blue; */
 }
 
 .fish img:hover {
@@ -111,25 +73,6 @@ h2 {
     cursor: pointer;
 
 }
-
-/* .footer {
-    background-color: #555;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: flex-end;
-    width: 100%;
-    flex-basis: 5vh;
-}
-
-.footer p {
-    margin: 8px;
-}
-
-.footer img {
-    width: 32px;
-    height: 32px;
-} */
 
 /* Scroll UP */
 #button {
@@ -183,4 +126,224 @@ h2 {
     /* .fish p {
         font-size: 100%;
     } */
+}
+
+/* FORM & MAP */
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.text-thanks {
+    max-width: 1000px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 40px;
+    margin-top: 10px;
+    border: solid gray 3px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 5px;
+    width: 350px;
+    height: 500px;
+    font-size: 18px;
+}
+
+.text-contact {
+    text-align: center;
+}
+
+.header-h1 {
+    margin: 40px 0px 30px 0px;
+}
+
+.form-rows {
+    margin: 15px;
+}
+
+.form label {
+    /* color: red; */
+    font-size: 20px;
+}
+
+.form-rows input,
+textarea {
+    /* border: 1px solid green; */
+    border-radius: 3px;
+    display: flex;
+    padding: 3px 0px 3px 6px;
+    font-size: 14px;
+}
+
+.form-rows label {
+    display: block;
+    text-align: center;
+}
+
+.form-section textarea,
+input {
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+
+    margin-bottom: 20px;
+    width: 120px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
+
+.list-web-article {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+
+/* FILMS */
+
+.films-section {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.films-section iframe {
+    margin-bottom: 15px;
+}
+
+/* FISHERY */
+.fishery-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fishery-section iframe {
+    width: 100%;
+}
+
+.text-slider {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.fishery-text {
+    width: 60%;
+    margin: 15px;
+}
+
+.fish-min {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.fish-min p {
+    color: black;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.fish-min img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+.fish-min p:hover {
+    text-decoration: none;
+}
+
+.fishery h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1100px) {
+    .form-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    .text-thanks p {
+        font-size: 18px;
+        margin: 5px 20px 5px 20px;
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .form-section iframe {
+        width: 390px;
+    }
+
+    .web-list img {
+        width: 100px;
+    }
+
+    .text-thanks p {
+        font-size: 16px;
+        margin: 5px 20px 5px 20px;
+    }
+
+    .films-section iframe {
+        width: 390px;
+    }
+
+    .films-h1 h1 {
+        font-size: 22px;
+        margin: 0px 25px 0px 25px;
+    }
+
+    .text-slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .fishery-text {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+
+
+    }
 }
