@@ -123,9 +123,6 @@ h2 {
         width: 90%;
     }
 
-    /* .fish p {
-        font-size: 100%;
-    } */
 }
 
 /* FORM & MAP */
@@ -228,8 +225,6 @@ input {
     max-width: 180px;
 }
 
-
-
 /* FILMS */
 
 .films-section {
@@ -258,7 +253,6 @@ input {
 .text-slider {
     display: flex;
     margin-top: 20px;
-
 }
 
 .fishery-text {
@@ -294,6 +288,69 @@ input {
 }
 
 
+/* METHODS */
+
+.metod-section {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.metod-grunt {
+    width: 100%;
+}
+
+.metod-section-text {
+    width: 100%;
+}
+
+.metod-section h3 {
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.metod-section p {
+    word-spacing: 1px;
+    font-size: 1.3em;
+    line-height: 40px;
+    text-align: justify;
+    padding: 5px 15px 5px 15px;
+
+}
+
+.reel img {
+    max-width: 330px;
+}
+
+.metod-grunt-akcesories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.metod-grunt-akcesories img {
+    max-width: 380px;
+    padding: 20px;
+}
+
+
+.grunt-logo {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.metod-grunt .float-right {
+    margin-left: 10px;
+}
+
+.fishing-rod {
+    text-align: center;
+    width: 100%;
+}
+
 @media (max-width: 1100px) {
     .form-section {
         display: flex;
@@ -307,6 +364,13 @@ input {
         font-size: 18px;
         margin: 5px 20px 5px 20px;
 
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .metod-section-text {
+        padding: 15px;
     }
 
 }
@@ -353,55 +417,30 @@ input {
         flex-wrap: wrap;
     }
 
-}
+    .fishing-rod img {
 
-/* METHODS */
+        width: 80%;
+    }
 
-.metod-section {
-    width: 1200px;
-    margin: 0 auto;
+    .metod-grunt .float-right {
+        margin-left: 5px;
+        width: 50%;
+    }
 
+    .metod-grunt .float-left {
+        margin-left: 5px;
+        width: 50%;
+    }
 
-}
+    .metod-section p {
+        font-size: 1em;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
 
-.metod-section h3 {
-    margin-top: 20px;
-}
+    .metod-grunt-akcesories img {
+        max-width: 150px;
+        padding: 10px;
+    }
 
-.metod-section p {
-    word-spacing: 1px;
-    font-size: 1.3em;
-    line-height: 40px;
-    text-align: justify;
-}
-
-.reel img {
-    max-width: 330px;
-}
-
-.metod-grunt-akcesories {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.metod-grunt-akcesories img {
-    max-width: 400px;
-    padding: 20px;
-}
-
-.metod-grunt-akcesories {
-    padding: 20px;
-}
-
-.grunt-logo {
-    max-width: 1200px;
-}
-
-.metod-grunt .float-right {
-    margin-left: 10px;
-}
-
-.fishing-rod {
-    text-align: center;
 }

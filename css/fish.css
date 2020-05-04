@@ -37,18 +37,12 @@ h1 {
     margin: 8px;
 }
 
-/* .text {
-    display: flex;
-} */
+@media (max-width:600px) {
+    .text img {
+        width: 50%;
+    }
 
-/* .footer {
-    background-color: grey;
-    display: flex;
-    justify-content: space-evenly;
+    .center {
+        width: 90%;
+    }
 }
-
-.footer img {
-    width: 32px;
-    height: 32px;
-    margin-top: 10px;
-} */

@@ -42,13 +42,13 @@ body {
     line-height: 33px;
 }
 
-h1 {
-    color: white;
-    font-size: 2.2em;
+.header h1 {
+
+    font-size: 3em;
 }
 
-h2 {
-    font-size: 2em;
+.main h2 {
+    font-size: 2.5em;
 }
 
 .header img {
@@ -199,7 +199,7 @@ h2 {
 
 .miejscowki-section img {
     width: 40%;
-    padding: 25px;
+    padding: 20px;
     transform: scale(0);
     transition: 1s;
 }
@@ -211,7 +211,6 @@ h2 {
 .miejscowki-section h2 {
     text-align: center;
     position: absolute;
-    /* top: 50%; */
     left: 50%;
     transform: translate(-50%, -50%);
     padding-bottom: 6px;
@@ -263,4 +262,16 @@ h2 {
     opacity: 1;
     visibility: visible;
     z-index: 5;
+}
+
+@media (max-width:600px) {
+    .miejscowki-section img {
+        width: 50%;
+        padding: 5px;
+
+    }
+
+    .header h1 {
+        font-size: 2.2em;
+    }
 }
